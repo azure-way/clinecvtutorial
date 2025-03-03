@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { personalData } from "../data/cv";
 
 export function DownloadButton() {
   const [mounted, setMounted] = useState(false);
