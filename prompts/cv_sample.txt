@@ -1,0 +1,165 @@
+You are inside a new nextjs project ok? it's inside cline_cv_tutorial, you will have to cd into this directory to do things, i am on macOS Terminal so you can use && symbols if needed
+
+I want to create a nextjs project, statically generated, you are already inside a fresh nextjs project and there are images inside a folder called /public/images/, it is a personal CV website for Alex Thompson, an AWS Certified Solutions Architect, Manager, and Senior Cloud Engineer. 
+
+Use the images in an intelligent way to build a modern professional CV website with a clean, minimalist gray color scheme and professional typography that matches the aesthetic of the provided CV sample.
+
+The website should be in English only, but ensure to implement proper SEO and keywords for optimal visibility.
+
+For the CV website, ensure to implement the following sections based on CV information:
+
+PERSONAL DATA
+ALEX THOMPSON
+AWS Certified Solutions Architect, Manager, Senior Cloud Engineer
+
+CONTACT
+LinkedIn: https://www.linkedin.com/in/alex-thompson_lsdfasdf
+Blog: https://azureway.cloud
+
+ABOUT ME
+I have been a cloud technology enthusiast for over 15 years and currently hold AWS Certified Solutions Architect Professional certification. I have been a dedicated cloud advocate, focusing mainly on developing scalable applications and security solutions. I am also passionate about infrastructure automation, finding great satisfaction in creating scripts using Terraform and CloudFormation. I have developed expertise in serving clients in the healthcare and retail sectors across Canada, the UK, Australia, and Germany. I'm also the author of the blog cloudjourney.tech
+
+SKILLS
+- AWS Architecture design
+- AWS Infrastructure creation
+- Business analysis
+- AWS Landing Zone
+- Terraform
+- AWS CodePipeline/GitHub Actions
+- AWS Cognito
+- Docker
+- Project Management
+- Python & React
+- PostgreSQL
+
+LANGUAGES
+English
+German
+
+EDUCATION
+University of Toronto
+Master of Computer Science
+2012-2014
+
+University of Toronto
+Bachelor of Computer Science
+2008-2012
+
+CERTIFICATES
+- AWS Certified: Advanced Networking Specialty (2022)
+- AWS Certified: Security Specialty (2022)
+- AWS Certified: DevOps Engineer Professional (2022)
+- Terraform certified associate
+- AWS Certified: Solutions Architect Professional (2021)
+- Professional Scrum Master I (PSM I) in 2021
+- AWS Certified: Developer Associate (2020)
+
+EXPERIENCE
+Cloud Architect Manager
+2022 - Present
+GlobalTech Consulting
+- Designing architecture in the AWS Cloud.
+- Developing CI/CD pipelines in AWS CodePipeline and GitHub Actions within a secure environment.
+- Leading cloud transformation projects.
+- Create business analysis and conversion to the technical design.
+- Migrating applications from on-premise to the AWS Cloud, including data and security layers.
+- Optimizing costs in the AWS Cloud.
+- Possessing deep theoretical and practical knowledge of Terraform from HashiCorp.
+- Automating infrastructure creation using Terraform and AWS CodePipeline.
+- Implementing custom policies in AWS Cognito.
+- Being an active member of the Cloud Center of Excellence within the company.
+
+Cloud Architect
+2020-2022
+CloudSphere Solutions
+- Creating Scope of Work (SOW) and Work Breakdown Structure (WBS) as a new offering for external clients.
+- Managing projects from offering and analysis, through to realization and finalization.
+- Conducting business analysis and converting it to technical design.
+- Designing web application architecture in the AWS Cloud.
+- Designing and implementing Identity Management as a company's global identity provider using AWS Cognito.
+- Creating architecture components using CloudFormation templates and Terraform.
+- Designing and creating AWS CodePipeline pipelines, including necessary artifacts and release pipelines.
+- Organizing workshops and training sessions on AWS CodePipeline and AWS infrastructure components.
+- Actively contributing to the company's Center of Excellence (CoE) by creating a set of reusable components.
+- Controlling project progress in terms of hours and scope.
+- Preparing projects in AWS CodePipeline, including backlogs and repositories.
+
+Team Leader Full Stack Python React
+2015-2020
+FirstBank
+- Deployment of Docker container including security approvals and changing company policies
+- Introduce rolling updates into the company, close cooperation with the network team
+- Alignment of the proposed solution landscape into the current system
+- Integration with company internal systems, including the core banking API
+- Maintenance of production system for 20000 users online
+- Design architecture of apps and databases
+- Planning and evaluation of future solutions proposed by business
+- Design and implement CI/CD processes using Jenkins
+- Actively contributing to security department policies
+- Rewriting CRM for detailed clients from legacy system to React
+- Migration to Python, hosting on Linux with docker
+- Optimization of queries in big data sets in PostgreSQL database
+
+Python Developer
+2013-2015
+National Financial Services
+- Creating functionality for portfolio evaluation
+- Migration of system from legacy UI to modern framework
+- Rewriting functionalities like Bloomberg data download, stock exchange data download, price choosing algorithm
+- View with support of resolving conflicts between parallel working users
+- Parallel computing
+- Creation of views with modern UI components and reporting tools
+- Maintenance of production
+- Introducing the GIT control system
+
+Python Developer
+2012-2013
+Digital Directories Inc.
+- Improving and correcting the system responsible for all departments in the company
+- Introducing pytest tests
+- Creation of business modelling functionality, which connects many departments and provide the flexible flow of product definition
+- IoC for services
+- Database communication is done by SQLAlchemy
+- Application made in pattern MVC
+- Migration from SVN to GIT control system
+
+
+Use Next.js 14.2.23 with these specifications:
+- Create icons and SVGs as you're going - start with something simple
+- Do not use src directory
+- Implement ISR so the website can be built again quickly and easily
+- Use NextJS and Tailwind to make a unique, beautiful, modern, modular website
+- Be very careful and wary of typescript errors
+- Make sure you are generatingStaticParams - and not confusing dynamic generation and static generation
+- Maximize build efficiency, speed, and complexity and modular nature of any pages
+- Ensure to implement all slugs etc programmatically
+
+TECHNICAL REQUIREMENTS:
+- The website must be responsive and work perfectly on all devices
+- The website must be printable using dark mode, in A4 format with a dedicated "Print CV" button.
+- All interactive elements must have hover states with tooltips or visual feedback
+- Implement dark mode
+- Ensure fast loading times and performance optimization
+- Store all data in JavaScript objects (no external APIs)
+- Add subtle animations for section transitions
+- Create a floating navigation that indicates the current section
+- Add a "Download PDF" option that generates a properly formatted A4 version
+- Use TypeScript for type safety
+- Organize components in a logical folder structure
+- Implement clean, well-commented code
+- Use CSS modules or styled-components for styling
+- Add .gitignore file
+- Use the photo of the person from the public/images/my_image.jpg
+- Use icons from bootstrapp icons 
+- Use boostrap components for building html
+
+The website should have the following sections:
+1. Header with name, title, contact info, and social links
+2. About Me section with professional summary
+3. Skills section with visual indicators of proficiency
+4. Experience section with timeline visualization
+5. Education section
+6. Certificates section (placeholder for future content)
+7. Contact section
+
+Make sure the colors are contrasting and not white on white or black on black at any point. The design should follow a clean, modern gray color scheme matching the CV's professional aesthetic with clear typography and ample white space.

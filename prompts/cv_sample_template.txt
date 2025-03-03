@@ -1,0 +1,70 @@
+You are inside a new nextjs project ok? it's inside cline_cv_tutorial, you will have to cd into this directory to do things, i am on macOS Terminal so you can use && symbols if needed
+
+I want to create a nextjs project, statically generated, you are already inside a fresh nextjs project and there are images inside a folder called /public/images/, it is a personal CV website for Alex Thompson, an AWS Certified Solutions Architect, Manager, and Senior Cloud Engineer. 
+
+Use the images in an intelligent way to build a modern professional CV website with a clean, minimalist gray color scheme and professional typography that matches the aesthetic of the provided CV sample.
+
+The website should be in English only, but ensure to implement proper SEO and keywords for optimal visibility.
+
+For the CV website, ensure to implement the following sections based on CV information:
+
+PERSONAL DATA
+
+
+CONTACT
+
+ABOUT ME
+
+SKILLS
+- 1
+- 2
+
+LANGUAGES
+- 1
+- 2
+
+EDUCATION
+
+CERTIFICATES
+
+EXPERIENCE
+
+Use Next.js 14.2.23 with these specifications:
+- Create icons and SVGs as you're going - start with something simple
+- Do not use src directory
+- Implement ISR so the website can be built again quickly and easily
+- Use NextJS and Tailwind to make a unique, beautiful, modern, modular website
+- Be very careful and wary of typescript errors
+- Make sure you are generatingStaticParams - and not confusing dynamic generation and static generation
+- Maximize build efficiency, speed, and complexity and modular nature of any pages
+- Ensure to implement all slugs etc programmatically
+
+TECHNICAL REQUIREMENTS:
+- The website must be responsive and work perfectly on all devices
+- The website must be printable using dark mode, in A4 format with a dedicated "Print CV" button.
+- All interactive elements must have hover states with tooltips or visual feedback
+- Implement dark mode
+- Ensure fast loading times and performance optimization
+- Store all data in JavaScript objects (no external APIs)
+- Add subtle animations for section transitions
+- Create a floating navigation that indicates the current section
+- Add a "Download PDF" option that generates a properly formatted A4 version
+- Use TypeScript for type safety
+- Organize components in a logical folder structure
+- Implement clean, well-commented code
+- Use CSS modules or styled-components for styling
+- Add .gitignore file
+- Use the photo of the person from the public/images/my_image.jpg
+- Use icons from bootstrapp icons 
+- Use boostrap components for building html
+
+The website should have the following sections:
+1. Header with name, title, contact info, and social links
+2. About Me section with professional summary
+3. Skills section with visual indicators of proficiency
+4. Experience section with timeline visualization
+5. Education section
+6. Certificates section (placeholder for future content)
+7. Contact section
+
+Make sure the colors are contrasting and not white on white or black on black at any point. The design should follow a clean, modern gray color scheme matching the CV's professional aesthetic with clear typography and ample white space.
